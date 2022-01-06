@@ -187,6 +187,8 @@ Besides, there are more movies rated between 8 and 10 than between 0 and 6. This
 
 ## Number of characters in a movie
 
+![Characters by ratings](results/characters_by_ratings.jpg)
+
 The plot shows that the number of characters in a movie is a good indicator of how well a movie will perform in the Internet Movie Database. Indeed, we can see that the more there are characters in the movie, the better the rating is. It is not a linear model but overall, the plot makes it clear. 
 
 
@@ -196,6 +198,8 @@ We can also see that movies whose rating is between 2 and 3 have a huge number o
 **The number of characters in a movie is correlated to its ratings.**
 
 ## Number of relations in a movie
+
+![Relations by ratings](results/relations_by_ratings.jpg)
 
 We can see that the pattern of the plot looks like the pattern of the previous one. It is normal: the more characters, the more relations between them. There is again the same rising function with a little decline for movies rated between 7 and 9, too small to make assumptions on it. 
 
@@ -207,6 +211,8 @@ As for our hypothesis, it is working again but it is a little less obvious.
 
 ## The betweenness centrality
 
+![Betweenness by ratings](results/betweenness_by_ratings.jpg)
+
 This is less obvious than before. We can see a small betweenness centrality in average is needed to obtain a good rating (between 6 and 10) but there are more fluctuations. For instance, movies rated between 4 and 5 have the same value of betweenness centrality as those rated between 7 and 8. 
 
 
@@ -216,6 +222,8 @@ However, our hypothesis seems to work again: the betweenness centrality of very 
 **Betweenness centrality doesn’t provide clear results or clear correlation.**
 
 ## The closeness centrality
+
+![Closeness by ratings](results/closeness_by_ratings.jpg)
 
 Closeness centrality is far more interesting than betweenness centrality. 
 
@@ -230,6 +238,8 @@ If we skip this value, we can see that the lower the value of the closeness cent
 
 ## The eccentricity
 
+![Eccentricity by ratings](results/eccentricity_by_ratings.jpg)
+
 Again, it appears that eccentricity is a good way to know if a movie will have a good rating. We skip the value of the movie whose rating is between 3 and 4 and we can see that the pattern is clear:
 
 
@@ -240,6 +250,8 @@ The higher the eccentricity, the better the rating. However, it is not as linear
 
 ## The degree
 
+![Degree by ratings](results/degree_by_ratings.jpg)
+
 The degree of a movie seems to be a good descriptor as well. Its pattern looks very familiar to the ones of the number of relations and characters, even if it is not as obvious as the others. 
 
 
@@ -249,6 +261,19 @@ Nevertheless, we can say (not without doubt) that the higher the degree, the bet
 **The degree seems to be an okay correlator to a movie’s rating, but it is not sure.**
 
 ## The standard deviation of the descriptors
+
+<p float="left">
+  <img src="results_std/std_characters_by_ratings.jpg" width="300" />
+  <img src="results_std/std_relations_by_ratings.jpg" width="300" /> 
+  <img src="results_std/std_betweenness_by_ratings.jpg" width="300" />
+</p>
+
+<p float="left">
+  <img src="results_std/std_closeness_by_ratings.jpg" width="300" />
+  <img src="results_std/std_eccentricity_by_ratings.jpg" width="300" /> 
+  <img src="results_std/std_degree_by_ratings.jpg" width="300" />
+</p>
+
 
 There is only one movie that has been rated between 3 and 4, thus the standard deviation is equal to zero for this range. 
 
