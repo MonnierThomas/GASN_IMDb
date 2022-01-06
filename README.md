@@ -141,9 +141,6 @@ Besides, as we know that IMDb ratings are between 0 and 10, we create ten lists 
 Then, we convert all these features in pandas DataFrames. This is a key move since it allows us to extract only six features for each of the ten ranges!
 
 
-Thanks to pandas.describe(), we obtain these results: [See next page]
-
-
 These new descriptors are saved in csv files and are used in the last - but not least - algorithm.
 
 ## Plotting the descriptors
