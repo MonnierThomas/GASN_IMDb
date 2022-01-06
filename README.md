@@ -105,7 +105,7 @@ Thus, 6 features are kept throughout the research study.
 
 ## Extraction of the features
 
-Algorithm: `extract_features.py`
+[Algorithm:](src/extract_features.py) `extract_features.py`
 
 
 This algorithm aims to extract all the 6 six features in each .gexf file. 
@@ -125,7 +125,7 @@ The list is sorted by the movies' id.
 
 ## Extraction of the ratings
 
-Algorithm: `extract_ratings.py`
+[Algorithm:](src/extract_ratings.py) `extract_ratings.py`
  
 
 This algorithm aims to extract the ratings of each movie in the file moviegalaxydataset.csv .
@@ -136,7 +136,7 @@ It returns the sorted list of list of the movies id and rating. If a movie is in
 
 ## Extraction of the descriptors
 
-Algorithm: `extract_descriptors.py`
+[Algorithm:](src/extract_descriptors.py) `extract_descriptors.py`
 
 We have extracted the features and the ratings from the datasets. However, in order to prove a correlation between the ratings and the movie's social structure, we can’t work with the features extracted. They must be processed since we want to plot in a graph the similarities and differences between ranges of movies.
 
@@ -167,7 +167,7 @@ These new descriptors are saved in csv files and are used in the last - but not 
 
 ## Plotting the descriptors
 
-Algorithm: `plot_results.py`
+[Algorithm:](src/plot_results.py) `plot_results.py`
 
 
 This algorithm aims to plot each descriptor of the features - or at least those which are the most interesting -. The algorithm proposes to the customer to plot one of the six most interesting:
