@@ -1,12 +1,12 @@
 #%% Extract all the features from all files
 
-from features_using_networkx import get_features
+from extract_features import get_features
 
 features = get_features()
 
 #%% Extract all ratings
 
-from read_ratings import read_ratings
+from extract_ratings import read_ratings
 
 ratings = read_ratings()
 

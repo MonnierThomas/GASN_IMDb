@@ -240,14 +240,3 @@ plot_std_closeness()
 
 #%%
 plot_std_degree()
-
-
-
-
-
-
-
-
-
-
-

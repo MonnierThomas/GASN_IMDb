@@ -105,7 +105,7 @@ Thus, 6 features are kept throughout the research study.
 
 ## Extraction of the features
 
-Algorithm: `features_using_networkx.py`
+Algorithm: `extract_features.py`
 
 
 This algorithm aims to extract all the 6 six features in each .gexf file. 
@@ -125,7 +125,7 @@ The list is sorted by the movies' id.
 
 ## Extraction of the ratings
 
-Algorithm: `read_ratings.py`
+Algorithm: `extract_ratings.py`
  
 
 This algorithm aims to extract the ratings of each movie in the file moviegalaxydataset.csv .
@@ -167,7 +167,7 @@ These new descriptors are saved in csv files and are used in the last - but not 
 
 ## Plotting the descriptors
 
-Algorithm: `plotting_differences.py`
+Algorithm: `plot_results.py`
 
 
 This algorithm aims to plot each descriptor of the features - or at least those which are the most interesting -. The algorithm proposes to the customer to plot one of the six most interesting:
