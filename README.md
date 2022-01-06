@@ -78,6 +78,9 @@ The data that we used in this paper comes from various sources:
 - The Moviegalaxies dataset from Jermain Kaminski released in 2018 which contains more than 900 graphs, each one describing a movie. MovieGalaxies is a database of Social Networks in movies, i.e. each character is represented with a node and there is an edge joining two of them when they interact in the plot. All of the files are .gexf files.
 - A CSV file moviegalaxydataset.csv which contains the titles, ratings and other information about the movie. Its id is the same as the id of the moviegalaxies dataset.
 
+
+The data is available directly in `dataset/`.
+
 ## Selection of the features
 
 We used in this paper the python library Networkx in order to develop algorithms on a python environment. The python algorithms are detailed in sections 2.3, 2.4, 2.5, and 2.6. 
@@ -133,6 +136,8 @@ It returns the sorted list of list of the movies id and rating. If a movie is in
 
 ## Extraction of the descriptors
 
+Algorithm: `extract_descriptors.py`
+
 We have extracted the features and the ratings from the datasets. However, in order to prove a correlation between the ratings and the movie's social structure, we can’t work with the features extracted. They must be processed since we want to plot in a graph the similarities and differences between ranges of movies.
 
 
@@ -158,7 +163,7 @@ Besides, as we know that IMDb ratings are between 0 and 10, we create ten lists 
 Then, we convert all these features in pandas DataFrames. This is a key move since it allows us to extract only six features for each of the ten ranges!
 
 
-These new descriptors are saved in csv files and are used in the last - but not least - algorithm.
+These new descriptors are saved in csv files and are used in the last - but not least - algorithm. All csv files can be found in `descriptors/`.
 
 ## Plotting the descriptors
 
@@ -186,6 +191,8 @@ Because there are no movies in the dataset whose rating is less than 2,only 8 ra
 
 
 This last algorithm saves all the plots in order to analyze the results.
+- the plots of the mean value of each feature for each range of ratings can be found in `results/`
+- the plots of the standard variance of each feature for each range of ratings can be found in `results_std/`
 
 # Results
 
