@@ -277,15 +277,15 @@ Nevertheless, we can say (not without doubt) that the higher the degree, the bet
 ## The standard deviation of the descriptors
 
 <p float="left">
-  <img src="results_std/std_characters_by_ratings.jpg" width="300" />
-  <img src="results_std/std_relations_by_ratings.jpg" width="300" /> 
-  <img src="results_std/std_betweenness_by_ratings.jpg" width="300" />
+  <img src="results_std/std_characters_by_ratings.jpg" width="250" />
+  <img src="results_std/std_relations_by_ratings.jpg" width="250" /> 
+  <img src="results_std/std_betweenness_by_ratings.jpg" width="250" />
 </p>
 
 <p float="left">
-  <img src="results_std/std_closeness_by_ratings.jpg" width="300" />
-  <img src="results_std/std_eccentricity_by_ratings.jpg" width="300" /> 
-  <img src="results_std/std_degree_by_ratings.jpg" width="300" />
+  <img src="results_std/std_closeness_by_ratings.jpg" width="250" />
+  <img src="results_std/std_eccentricity_by_ratings.jpg" width="250" /> 
+  <img src="results_std/std_degree_by_ratings.jpg" width="250" />
 </p>
 
 
