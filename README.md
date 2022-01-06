@@ -94,11 +94,17 @@ We keep in our model only six features and four among the ones calculated by Gep
 
 Here are all the methods that have been used to extract the interesting features:
 - **graph.number_of_edges()**: it returns the number of edges in the graph (integer type).
+> The number of edges represent the number of relations in a movie
 - **graph.number_of_nodes()**: it returns the number of nodes in the graph (integer type).
+> The number of nodes represent the number of characters in a movie
 - **networkx.betweenness_centrality(graph)**: it returns a dictionary of nodes with betweenness centrality as the value.
+> The betweenness centrality measures the centrality of a movie based on shortest paths. A movie with a high betweenness centrality means that a large majority of the characters connects to the story because of a single character. Without its "hero", the movie would make almost no sense
 - **networkx.closeness_centrality(graph)**: it returns a dictionary of nodes with closeness centrality as the value.
+> In a movie with a high closeness centrality, all characters are closed to each other
 - **networkx.eccentricity(graph)**: it returns a dictionary of nodes with eccentricity as the value.
+> A movie with a high eccentricity has characters who are very distant from each other
 - **graph.degree**: it returns a DegreeView object capable of iterating (node, degree) pairs
+> A movie with a high degree means that lots of its characters have many relations towards other characters.
 
 
 Thus, 6 features are kept throughout the research study.
