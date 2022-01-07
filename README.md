@@ -1,4 +1,4 @@
-# Is there any correlation between the IMDb rating and movies' social structure?
+# Is there any correlation between IMDb ratings and movies' social structure?
 
 > Final project of the course "Graph Analysis and Social Networks" at Universidad Politécnica de Madrid.
 
@@ -67,7 +67,7 @@ In order to find this correlation, we will use the rating database of IMDb. The 
 
 Thereby, this repository answers the following interrogation:
 
-> Is there any correlation between the IMDb rating and movies' social structure ?
+> Is there any correlation between IMDb ratings and movies' social structure ?
 
 # Methods
 
